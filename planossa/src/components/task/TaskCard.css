@@ -1,0 +1,39 @@
+.task-card{
+  height: 80%;
+  min-width: 250px;
+  max-width: 250px;
+  margin: 15px;
+  padding: 20px;
+  background-color: #FAF3DD;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.task-card.selected {
+  background-color: #9ECE9A;
+  color: black;
+}
+
+.task-card p {
+  color: #5E6472;
+  display: flex;
+  align-items: start;
+}
+
+.task-card h3 {
+  color: #5E6472;
+}
+
+.viewBtn {
+  margin: 10px;
+  background-color: #077187;
+  border-radius: 10px;
+}
+.viewBtn:hover {
+  background-color:#9ECE9A;
+  border-color: #9ECE9A;
+  color: black;
+}
+
